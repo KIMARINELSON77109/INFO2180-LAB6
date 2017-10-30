@@ -5,12 +5,29 @@
           <meta charset="utf-8" />
 
          <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"> </script>
-          <script src="search.js" type="text/javascript"></script>
+         <script src="lookup.js" type="text/javascript"></script>
+         <link rel="stylesheet" type="text/css" href="search.css" />
 
-    </head>
+     </head>
      <body>
-         <form>
-         <button type= "button" id = "Button">SEARCH</button>
-         </form>
+         <div class = "container">
+             <div id = "box">
+                 <div id= "header">
+                  <h2><strong>WEB DEFINITION</strong></h2>
+                  </div>
+                  <form>
+                      <p>Lookup the definition of words (eg.ajax,html,bar,javascript,php,css)</p>
+                      <input type="text" name="word" id="word"/>
+                      <button type= "button" id = "Button">SEARCH</button>
+                  </form>
+             </div>
+
+             <div id ="header2">
+                 <h3>meaning:</h3>
+             </div>
+             <div id = "result">
+
+             </div>
+         </div>
      </body>
  </html

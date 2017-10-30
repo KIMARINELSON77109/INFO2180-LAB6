@@ -1,0 +1,37 @@
+.container
+{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 25%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+input[type=text]
+{
+    width: 72%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+#header
+{
+    background-color: blue;
+    padding: 2px;
+    border-radius: 4px;
+}
+h2
+{
+    text-align: center;
+}
+#header2
+{
+    border-top: solid blue;
+}
