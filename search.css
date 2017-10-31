@@ -1,30 +1,29 @@
 .container
 {
     border-radius: 5px;
+    padding: 12px;
     background-color: #f2f2f2;
-    padding: 20px;
     position: absolute;
-    width: 300px;
-    height: 400px;
+    width: 70%;
+    min-height: 50px;
     top: 25%;
     left: 50%;
-    margin: -100px 0 0 -150px;
+    margin: -200px 0 0 -600px;
 }
 input[type=text]
 {
-    width: 72%;
+    width: 25%;
     padding: 12px;
-    border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    
 }
 #header
 {
-    background-color: blue;
-    padding: 2px;
+    background-color: 00FF7F;
+    padding: 9px;
     border-radius: 4px;
 }
 h2
@@ -33,5 +32,21 @@ h2
 }
 #header2
 {
-    border-top: solid blue;
+    border-top: solid green;
+    padding: 13px;
+}
+#box,#result
+{
+     padding-left: 13px;
+}
+button {
+    background-color: 00FF7F;
+    color: 0000000;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 4px;
+    font-style: bold;
 }
