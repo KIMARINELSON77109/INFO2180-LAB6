@@ -39,7 +39,7 @@ $xmldata = '<?xml version="1.0" encoding="UTF-8"?>
      </definition>
  </entries>';
  
- if ($query == "")
+ if ($query == "&all=true")
  {
      header('Content-Type: text/xml');
      $xmlOutput = new SimpleXMLElement($xmldata);
